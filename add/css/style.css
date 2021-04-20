@@ -1,0 +1,162 @@
+	*{
+        overflow-x: hidden;
+    }
+    body {
+	    margin: 0;
+	    background-color: #9fc6f1;
+
+	    font-size: 15px;
+	    line-height: 1.6;
+	}
+
+.bg{
+    z-index: -9999;
+    position: relative;
+    width: 100vw;
+		height: 100vh;
+		  justify-content: center;
+		  align-items: center;
+}
+.bg .bg__text{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	z-index: 5;
+	position: absolute;
+font-size: 10em;
+color: #000000;
+		  justify-content: center;
+		  align-items: center;
+			flex-direction: column;
+}
+.bg img{
+        width: 100vw;
+}
+.aaaaa h1 {
+	    color: #fff;
+	    font-size: 300px;
+	    font-weight: 700;
+	    text-transform: uppercase;
+	    line-height: 1;
+         text-align: center;
+	    font-family: Bubble;
+	    font-size: 100px;
+        overflow-y: hidden;
+	    text-shadow: -1px -1px white, 1px 1px gray, 2px 2px #7a7a7a, 3px 3px #757575, 4px 4px #707070, 5px 5px #6b6b6b, 6px 6px #666666, 7px 7px #616161, 8px 8px #5c5c5c, 9px 9px #575757, 10px 10px #525252, 11px 11px #4d4d4d, 18px 18px 30px rgba(0, 0, 0, .4), 18px 18px 10px rgba(0, 0, 0, .4);
+	}
+    .cont{
+			margin-top :50px ;
+			position: relative;
+        display: flex;
+    }
+		.prakt ul{
+			display: flex;
+			font-size: 2em;
+		}
+		.prakt h2{
+			font-size: 2em;
+		}
+		.prakt ul li{
+			padding: 0px 20px;
+		}
+		.prakt{
+						display: flex;
+			position: relative;
+									width: 100vw;
+									height: 30vh;
+		}
+		.prakt .pcont{
+						display: flex;
+						flex-direction: column;
+			position: absolute;
+						width: 100vw;
+						height: 30vh;
+						justify-content: center;
+						align-items: center;
+						z-index: 99;
+		}
+.left{
+margin: 50px;
+    justify-content: center;
+    align-items: center;
+    max-width: 45vw;
+}
+.left img{
+    margin-top: 50px;
+   height: 100vh; 
+}
+.right {
+    backdrop-filter: blur(4px);
+    max-width: 45vw;
+}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+	    margin: 0;
+	}
+
+
+	h1 {
+	   
+	}
+
+
+	.personalna-infa {
+	    font-size: 1.9em;
+	    text-align: justify;
+	    font-family: Times New Roman;
+	    text-shadow: 1px 1px #732372, 1px -1px #732372, -1px 1px #732372, -1px -1px #732372, 3px 3px 6px rgba(0, 0, 0, .5);
+	    text-align: center;
+	}
+
+
+.menu{
+	z-index: 999999;
+	position: fixed;
+	background-color: #0000002f;
+backdrop-filter: blur(5px);
+	width: 100vw;
+}
+.menu ul{
+	justify-content: center;
+	display: flex;
+}
+.menu ul li{
+		padding-right: 50px;
+		font-size: 2em;
+}
+.menu ul li a{
+			color: #ffffff;
+}
+
+	.osvita {
+	    font-size: 1.9em;
+	    text-align: justify;
+	    font-family: Times New Roman;
+	    text-shadow: 1px 1px #732372, 1px -1px #732372, -1px 1px #732372, -1px -1px #732372, 3px 3px 6px rgba(0, 0, 0, .5);
+	    text-align: center;
+	}
+
+
+
+
+	.professional_skills {
+	    font-size: 1.9em;
+	    text-align: inherit;
+	    text-shadow: 1px 1px #732372, 1px -1px #732372, -1px 1px #732372, -1px -1px #732372, 3px 3px 6px rgba(0, 0, 0, .5);
+	    text-align: center;
+	}
+
+
+
+	.contact_information {
+	    font-size: 1.9em;
+	    text-align: justify;
+	    font-family: Aesthetic;
+	    color: black;
+	    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px white, 0 0 35px white, 0 0 40px white, 0 0 50px black, 0 0 75px black;
+	    text-align: center;
+	}
